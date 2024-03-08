@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Vario"
+    android:background="#997950"
+    >
+    <FrameLayout
+        android:id="@+id/framejd"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="#fee6a8"
+        >
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="VARIO"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="#361509"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText"
+            />
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="#722e00"
+            android:drawableStart="@drawable/back"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame1"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="#fee6a8"
+        >
+        <ImageView
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/vario"
+            />
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="230dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Detail barang"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:id="@+id/detail1"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="270dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Merek Motor          : Vario 125"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:id="@+id/detail2"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="300dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Kapasitas mesin   : 1000 cc"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:id="@+id/detail3"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="330dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Warna Motor          : Hitam"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:id="@+id/detail4"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="360dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Harga Motor           : Rp. 21.000.000"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText"
+            />
+
+    </FrameLayout>
+    <Button
+        android:id="@+id/btnshare"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:text="Share"
+        android:background="#e3caaf"
+        tools:ignore="HardcodedText"
+        />
+</LinearLayout>
